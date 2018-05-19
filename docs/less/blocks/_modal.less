@@ -4,6 +4,8 @@
 	     -o-background-size: cover;
 	        background-size: cover;
 	    background-position: center;
+	    overflow: visible;
+		box-shadow: 0px 3px 3px #7A68E1;
 }
 .modal__form {
 	padding-bottom: 30px;
@@ -29,17 +31,18 @@
 .modal__input {
 	margin-bottom: 10px;
 	padding: 10px;
-	-webkit-border-radius: 10px;
-	        border-radius: 10px;
-	 border: 3px solid #7A68E1;
-	 outline: none;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
+	border:none;
+	outline: none;
 	 &:focus {
-	 	border: 3px solid #5CB85C;
+	 	border: 1px solid #7A68E1;
+	 	padding: 9px;
 	 }
 }
 .modal__submit {
-	-webkit-border-radius: 10px;
-	        border-radius: 10px;
+	-webkit-border-radius: 3px;
+	        border-radius: 3px;
 	 border: none;
 	 outline: none;
 	 padding: 10px;
